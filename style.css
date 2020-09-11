@@ -1,0 +1,78 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 1em auto;
+  width: 50%;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
+header {
+padding: 1em 1em;
+  background: #e76f51;
+}
+
+h1 {
+  font-family: 'Londrina Outline', cursive;
+  font-size: 3rem;
+}
+
+form {
+  background: #f4a261;
+  padding: 1em 1em;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+input, 
+button{
+  margin: 1em auto;
+  text-align: center;
+  width: 35%;
+  border: 1px transparent solid;
+  border-radius: 7px;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+
+.firstDiv,
+.secondDiv,
+.lastDiv,
+input {
+  padding: 1em;
+  font-weight: 700;
+}
+
+#submit {
+  background: #2a9d8f;
+}
+
+#submit:focus,
+#submit:hover {
+  border: 2px solid #264653;
+}
+
+.firstDiv {
+  background: #e9c46a;
+}
+
+.secondDiv {
+  background: #2a9d8f;
+}
+
+.secondDiv,
+.lastDiv,
+p,
+#submit {
+  color: #ffffff;
+}
+
+.lastDiv {
+  background: #264653;
+}
+
+
+
+@
